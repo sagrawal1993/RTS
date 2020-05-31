@@ -1,0 +1,40 @@
+2017-04-08T12:29:50.710635467 0.117295s notice: Recursively removing directory /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data/tmp
+2017-04-08T12:29:50.767168879 0.173830s notice: Initializing directory /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data
+2017-04-08T12:29:50.767345038 0.174004s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data' did not already exist or is empty.)
+2017-04-08T12:29:50.767411482 0.174070s notice: Running rethinkdb 2.3.5~0trusty (GCC 4.8.2)...
+2017-04-08T12:29:50.793446575 0.200107s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-04-08T12:29:50.793614654 0.200273s notice: Loading data from directory /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data
+2017-04-08T12:29:51.197045262 0.603705s info: Automatically using cache size of 111 MB
+2017-04-08T12:29:51.197471838 0.604131s notice: Listening for intracluster connections on port 29015
+2017-04-08T12:29:51.198148657 0.604807s notice: Listening for client driver connections on port 28015
+2017-04-08T12:29:51.345622590 0.752282s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2017-04-08T12:32:49.744722358 0.064767s notice: Running rethinkdb 2.3.5~0trusty (GCC 4.8.2)...
+2017-04-08T12:32:49.748013063 0.068058s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-04-08T12:32:49.748128629 0.068171s notice: Loading data from directory /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data
+2017-04-08T12:32:49.868638199 0.188682s info: Automatically using cache size of 158 MB
+2017-04-08T12:32:49.869193136 0.189236s notice: Listening for intracluster connections on port 29015
+2017-04-08T12:32:49.870278553 0.190321s notice: Listening for client driver connections on port 28015
+2017-04-08T12:32:49.870409997 0.190453s notice: Listening for administrative HTTP connections on port 8080
+2017-04-08T12:32:49.870412178 0.190455s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-08T12:32:49.870415547 0.190458s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-08T12:32:49.870428598 0.190471s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-08T12:32:49.870431381 0.190474s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-08T12:32:49.870434266 0.190477s notice: Server ready, "shaunak_Aspire_E5_573_azu" 51845b60-0f21-45b5-8a6e-b0d86447c6c7
+2017-04-08T12:39:09.322287523 379.642330s info: Table 2908f965-56a1-4448-b346-c429708b8b06: Starting a new Raft election for term 1.
+2017-04-08T12:39:09.342874387 379.662917s info: Table 2908f965-56a1-4448-b346-c429708b8b06: Added replica on this server.
+2017-04-08T12:39:09.485917574 379.805961s info: Table 2908f965-56a1-4448-b346-c429708b8b06: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-08T12:46:07.562138645 797.882182s notice: Removing file /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data/2908f965-56a1-4448-b346-c429708b8b06
+2017-04-08T12:46:07.562143938 797.882187s info: Table 2908f965-56a1-4448-b346-c429708b8b06: Deleted the table.
+2017-04-08T12:46:15.772708196 806.092751s info: Table 7dd69358-de67-4e43-9ca9-d4c37a895cce: Starting a new Raft election for term 1.
+2017-04-08T12:46:15.772829531 806.092872s info: Table 7dd69358-de67-4e43-9ca9-d4c37a895cce: Added replica on this server.
+2017-04-08T12:46:15.849883022 806.169926s info: Table 7dd69358-de67-4e43-9ca9-d4c37a895cce: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-08T22:58:52.837732117 37563.157776s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-04-08T22:58:52.906057599 37563.226100s notice: Shutting down client connections...
+2017-04-08T22:58:52.916193515 37563.236237s notice: All client connections closed.
+2017-04-08T22:58:52.916196718 37563.236239s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-08T22:58:53.113626214 37563.433669s notice: Storage engine shut down.
+2017-04-09T10:45:59.772707642 0.077072s notice: Running rethinkdb 2.3.5~0trusty (GCC 4.8.2)...
+2017-04-09T10:45:59.794005657 0.098370s notice: Running on Linux 4.4.0-72-generic x86_64
+2017-04-09T10:45:59.794144824 0.098507s notice: Loading data from directory /media/shaunak/E294FCB794FC8EF3/Workspace/IR/test_IR/rethinkdb_data
+2017-04-09T10:45:59.954184604 0.258548s info: Automatically using cache size of 367 MB
+2017-04-09T10:45:59.954623898 0.258986s error: TCP socket creation failed for port 29015: Address already in use.

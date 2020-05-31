@@ -1,0 +1,27 @@
+[
+  { "topid" : "RT001",
+    "title" : "IPL 2017",
+    "description" : "Find information on the Indian Premier League 2017",
+    "narrative" : "The user is interested in IPL cricket matches organized by BCCI."
+  },
+  { "topid" : "RT002",
+    "title" : "Yogi Adityanath",
+    "description" : "Find information on the newly elected chief minister of Uttar Pradesh in India.",
+    "narrative" : "The user in interested in news related to firebrand hindutva BJP leader Yogi Adityanath, the incumbent chief minister of UP in India."
+  },
+  { "topid" : "RT003",
+    "title" : "Srinagar bypolls",
+    "description" : "Find information on the recently held bypoll elections in Srinagar.",
+    "narrative" : "The user in interested in news related to Lok Sabha bypoll elections in the indian state of Jammu and Kashmir."
+  },
+  { "topid" : "RT004",
+    "title" : "United states strike in Syria",
+    "description" : "Find information on the air strikes made by the United States of America on Bashar-al-Assad's Syrian regime.",
+    "narrative" : "After alleged use of chemical weapons by Syrian government killing over 50 civilians, President Donald Trump ordered air attack on the Syrian airbase."
+  },
+  { "topid" : "RT005",
+    "title" : "ISIS attack in Egypt",
+    "description" : "Find information on the attack on Egyptian churches by Islamic State.",
+    "narrative" : "ISIS has claimed responsibility for two attacks on churches in Egypt that were packed for Palm Sunday services."
+  }
+]

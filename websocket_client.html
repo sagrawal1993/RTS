@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .title {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 24.5px;
+      line-height: 40px;
+      margin: 10px 0px;
+    }
+    .markRead {
+      margin-left: 5px;
+      font-size: 11px;
+      cursor: pointer;
+    }
+    .read-true, .read-true a {
+      color: #CCC;
+    }
+    #rssFeed {
+      width: 720px;
+    }
+    .margin-top {
+      margin-top: 25px;
+    }
+    .margin-bottom {
+      margin-bottom: 15px;
+    }
+    body.dark {
+      background-color: #222;
+      color: #EEE;
+    }
+  </style>
+        <script type="application/javascript">
+    var ws;
+
+    function init() {
+        var servermsg = document.getElementById("servermsg");
+        ws = new WebSocket("ws://localhost:8888/ws");
+        ws.onmessage = function(e){
+            x = JSON.parse(e.data);
+            x = x.new_val;
+            servermsg.innerHTML = "<div class='span12'><span class='title'>" + x.topic + "</span><span>"+x.score+"</span><div class='content'>"+x.tweet+"</div></div>"+ servermsg.innerHTML;
+        };
+    }
+    </script>
+        <title>Real Time Summarization</title>
+    </head>
+    <body onload="init();">
+        <div class="app">
+            <h1>RTS App</h1>
+            <div class='container-fluid margin-bottom' id="servermsg"></div>
+        </div>
+    </body>
+</html>
